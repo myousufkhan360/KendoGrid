@@ -1,0 +1,264 @@
+.chrome {
+    background-color: #f5f7f8;
+    outline: none;
+    color: #2d3e50;
+    line-height: 4em;
+    font-size: 1.1667em;
+}
+
+@media screen and (max-width: 720px) {
+    .chrome {
+        line-height: 3em;
+    }
+}
+
+#main .chrome {
+    height: 60px;
+    padding: 0 20px;
+    border-top: 1px solid #e2e4e7;
+    border-bottom: 1px solid #e2e4e7;
+    text-align: right;
+}
+
+#main .chrome .demos-button {
+    float: none;
+    display: inline-block;
+}
+
+.tc-name {
+    padding-left: .5em;
+}
+
+.choose-theme {
+    text-align: left;
+    border: 0;
+    background: none;
+    width: 50%;
+    float: left;
+}
+
+#nav-wrapper {
+    overflow: hidden;
+}
+
+#themebuilder {
+    font-size: 12px;
+    position: relative;
+    width: 50%;
+    float: left;
+}
+
+.choose-theme ul {
+    border: 0;
+    background: transparent;
+    margin: 1em 0;
+    padding: .5em 0;
+}
+
+.choose-theme li {
+    display: block;
+    padding: .5em 1em;
+    width: auto;
+}
+
+#themebuilder {
+    height: 100% !important;
+}
+
+#ktb-interface {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#back-forward {
+    padding-top: 1.44em;
+    padding-bottom: 1.44em;
+}
+
+#back-forward:before {
+    top: 1.5em;
+}
+
+@media screen and (max-width: 720px) {
+    #back-forward {
+        padding-top: 1.16em;
+        padding-bottom: 1.16em
+    }
+
+    #back-forward:before {
+        top: 1.2em;
+    }
+}
+
+#themebuilder .k-loading-image {
+    background-image: url(http://cdn.kendostatic.com/2015.1.429/styles/Bootstrap/loading-image.gif);
+}
+
+#themebuilder .k-loading-text {
+    text-indent: 5px;
+    width: 100%;
+    top: 50%;
+    color: #444;
+}
+
+#themebuilder .k-loading-color {
+    background-color: #f5f7f8;
+    opacity: 1;
+}
+
+#tb-preview {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    display: block;
+}
+
+#kendo-themebuilder label {
+    display: inline-block;
+    width: 50%;
+    padding-left: 4%;
+    text-align: left;
+    color: #444;
+}
+
+
+#kendo-themebuilder .styling-options {
+    padding: .4em;
+    width: auto;
+    white-space: normal;
+}
+
+#kendo-themebuilder .k-color-preview,
+#kendo-themebuilder .k-colorinput .k-i-arrow-s,
+#kendo-themebuilder .k-colorinput .k-i-arrow-60-down  {
+    border: 1px solid rgba(0,0,0,.5);
+    background-image: none;
+    border-radius: 50%;
+}
+#kendo-themebuilder .k-colorinput .k-i-arrow-s::before,
+#kendo-themebuilder .k-colorinput .k-i-arrow-60-down::before {
+    content: "";
+}
+
+.k-color-preview,
+.ktb-texture-preview {
+    opacity: 1;
+    border-radius: 50%;
+    float: left;
+    margin: 1px 0 0 1px;
+}
+
+.k-color-preview {
+    background-image: none;
+}
+
+#kendo-themebuilder .k-icon {
+    opacity: 1;
+}
+
+.ktb-texture-preview {
+    width: 19px;
+    height: 19px;
+}
+
+.ktb-small-items .k-list {
+    text-align: center;
+}
+
+.ktb-small-items .k-list .k-item {
+    width: 19px;
+    height: 19px;
+    overflow: hidden;
+    display: inline-block;
+    text-align: center;
+    padding: 1px;
+    border-width: 0;
+}
+
+.ktb-small-items .k-list .k-state-hover,
+.ktb-small-items .k-list .k-state-focused,
+.ktb-small-items .k-list .k-state-selected {
+    padding: 1px;
+}
+
+#kendo-themebuilder div.k-colorinput,
+#kendo-themebuilder .k-gradient-editor,
+#kendo-themebuilder .k-numerictextbox,
+#kendo-themebuilder .k-combobox,
+#kendo-themebuilder .k-dropdown,
+#kendo-themebuilder .k-shadowinput {
+    width: 100px;
+    margin-bottom: 5px;
+}
+
+.k-colorinput .k-i-arrow-s {
+    margin-top: -1px;
+}
+
+.k-colorinput .k-input,
+.k-color-name,
+textarea {
+    font-size: 12px;
+    font-family: Consolas, Courier, monospace;
+}
+
+.ktb-view {
+    color: #fff;
+    display: none;
+    background-color: #e2e4e7;
+}
+
+#editing-interface {
+    display: block;
+}
+
+.ktb-view,
+.ktb-overlay,
+.ktb-content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.ktb-view > .k-button {
+    margin-right: .6em;
+}
+
+.ktb-content {
+    overflow: scroll;
+    overflow-x: hidden;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.ktb-overlay {
+    display: none;
+    position: absolute;
+    z-index: 2;
+}
+
+.ktb-overlay .ktb-content {
+    overflow: hidden;
+}
+
+.ktb-overlay textarea {
+    color: #fff;
+    background-color: #e2e4e7;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    resize: none;
+    outline: none;
+}
+
+.k-gradient-editor {
+    display: inline-block;
+    border-width: 0;
+}

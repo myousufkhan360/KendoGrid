@@ -1,0 +1,19 @@
+#details-container {
+    padding: 10px;
+}
+
+#details-container h2 {
+    margin: 0;
+}
+
+#details-container em {
+    color: #8c8c8c;
+}
+
+#details-container dt {
+    margin: 0;
+    display: inline;
+}
+
+
+
